@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	RewriteRule ^buscador/(.*)\/?$ index.php?path=buscador&palabra=$1 [L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule .* index.php?path=$0 [PT,L]
+</IfModule>
