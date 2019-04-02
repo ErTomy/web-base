@@ -4,13 +4,17 @@ class Template {
     private $template = null;
     private $errores = array();
     private $cache;
-
+    
     public function __construct($path){
         global $rutas;
         global $redirecciones;
         $this->cache = str_replace('class', 'cache/'.md5($path), __DIR__);
 
-        if(!isset($rutas[$path]['plantilla'])){
+        // comprobación por si esta cargando una url amp
+        $ruta = ($path == '/amp' || substr($path, 0, 5) == '/amp/')? '/' . substr($path, 5, strlen($path)-5) : $path;
+        $this->template = ($ruta != $path)?'plantillas/amp/'.$rutas[$ruta]['plantilla']:'plantillas/'.$rutas[$ruta]['plantilla'];
+
+        if(!isset($rutas[$ruta]['plantilla'])){
             if(isset($redirecciones[$path])){
               Header( "HTTP/1.1 301 Moved Permanently" );
               Header( "Location: " . BASE_URL. $redirecciones[$path]);
@@ -19,13 +23,12 @@ class Template {
               if(DEBUG) echo sprintf('Ruta <b>%s</b> no encontrada en el fichero rutas.php', $path);
               $this->template = 'plantillas/' . ERROR_404;
             }
-        }elseif(!file_exists('plantillas/'.$rutas[$path]['plantilla'])){
-            if(DEBUG) echo sprintf('La plantilla <b>%s</b> no se ha encontrado en el directorio plantillas', $rutas[$path]['plantilla']);
+        }elseif(!file_exists($this->template)){
+            if(DEBUG) echo sprintf('La plantilla <b>%s</b> no se ha encontrado en el directorio plantillas', $this->template);
         }else{
-            if (!file_exists($this->cache) || (time() - filemtime($this->cache) >= CACHE)){
-              $this->template = 'plantillas/'.$rutas[$path]['plantilla'];
-              if(isset($rutas[$path]['parametros'])){
-                  foreach($rutas[$path]['parametros'] as $param=>$valor){
+            if (!file_exists($this->cache) || (time() - filemtime($this->cache) >= CACHE)){           
+              if(isset($rutas[$ruta]['parametros'])){
+                  foreach($rutas[$ruta]['parametros'] as $param=>$valor){
                       $this->$param = $valor;
                   }
               }
@@ -38,8 +41,6 @@ class Template {
     }
 
     public function display($display = true) {
-
-
       if (!file_exists($this->cache) || (time() - filemtime($this->cache) >= CACHE)){
         $Scope = new TemplateScope($this->template,$this->_tpl_data);
         if($display === true) {

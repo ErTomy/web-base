@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine on
 
+	Rewriterule ^sitemap.xml$ sitemap.php [L]
+
 	RewriteRule ^buscador/(.*)\/?$ index.php?path=buscador&palabra=$1 [L]
 
 	RewriteCond %{REQUEST_FILENAME} !-f

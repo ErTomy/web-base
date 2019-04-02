@@ -2,8 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title><?php echo $this->title; ?></title>
-    <base href="<?php echo BASE_URL; ?>">
+    <?php $this->_metas(); ?>
+
+
+    
+    
   </head>
   <body>
       <?php if($this->include) $this->_include("header.php"); ?>

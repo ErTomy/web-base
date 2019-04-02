@@ -1,8 +1,14 @@
 <?php
-
-define('BASE_URL', 'http://cms.local/web-base/');
+define('BASE_URL', 'http://cms.local/'); // url base de la web
 define('DEBUG', true); // mostrar el depurador
-define('CACHE', 10); // tiempo de cache de las páginas en segundos
-
+define('CACHE', 0); // tiempo de cache de las páginas en segundos
 
 define('ERROR_404', '404.php'); // página por defecto cuando no encuentra la ruta
+
+
+/* posibles metatags que afectaran a todas las páginas */
+define('LANG', 'es');
+define('LOCALITY', 'España'); 
+define('AUTHOR', 'Tomás Javier Rodríguez'); 
+define('ORGANIZATION', 'ErTomy'); 
+define('ICON', 'favicon.ico'); 
