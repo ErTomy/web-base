@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', 'http://cms.local/'); // url base de la web
+define('BASE_URL', 'http://localhost/'); // url base de la web
 define('DEBUG', true); // mostrar el depurador
 define('CACHE', 0); // tiempo de cache de las páginas en segundos
 
@@ -12,3 +12,7 @@ define('LOCALITY', 'España');
 define('AUTHOR', 'Tomás Javier Rodríguez'); 
 define('ORGANIZATION', 'ErTomy'); 
 define('ICON', 'favicon.ico'); 
+
+
+/* el email remitente del envio de correos */
+define('FROM', 'ertomy@gmail.com');
