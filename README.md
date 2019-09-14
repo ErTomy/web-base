@@ -17,6 +17,7 @@ Fichero que almacena la configuración básica del proyecto con las siguientes c
 * AUTHOR: el metadato author que se añade a la cabecera
 * ORGANIZATION: el metadato organization que se añade a la cabecera
 * ICON: el favicon que tendra la web
+* FROM: email remitente de los correos que se mandan
 
 #### redirecciones.php ####
 
@@ -39,6 +40,10 @@ Fichero que genera el sitemap.xml a partir del fichero de rutas
 
 Array con variables que se van a poder usar desde las plantillas usando la llamada **echo $this->__var('NOMBRE DE LA VARIABLE');**
 
+#### formularios.php ####
+
+Array con los formularios que se validan y envian con la clase Formulario.php
+
 #### /cache ####
 
 Directorio donde se almacenan los ficheros de cache.
@@ -50,6 +55,14 @@ Directorio donde se almacenan las clases. En caso de necesitar crear nuevas lo i
 #### /plantillas ####
 
 Directorio donde se almacenan las plantillas. En caso de tener una plantilla en el directorio /plantillas y otra con el mismo nombre en el directorio /plantillas/amp, se generará una versión amp de la página
+
+#### /plantillas/includes ####
+
+Directorio donde se almacenan los includes que se van a hacer desde otras plantillas
+
+#### /plantillas/emails ####
+
+Directorio donde se almacenan los htmls que se mandan por email desde los formularios 
 
 #### /xsl-stylesheets ####
 
