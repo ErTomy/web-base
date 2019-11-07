@@ -59,7 +59,11 @@ class TemplateScope {
         if(file_exists(str_replace('plantillas/', 'plantillas/amp/', $this->template))){
             echo '<link rel="amphtml" href="'.str_replace(BASE_URL, BASE_URL.'amp/', "$protocol{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}").'">';
         }elseif(substr($this->template, 0, 15) == 'plantillas/amp/'){
-            echo '<link rel="canonical" href="'.str_replace(BASE_URL.'amp/', BASE_URL, "$protocol{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}").'">';
+            if("$protocol{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}" == BASE_URL.'amp'){
+                echo '<link rel="canonical" href="'.BASE_URL.'">';
+            }else{
+                echo '<link rel="canonical" href="'.str_replace(BASE_URL.'amp/', BASE_URL, "$protocol{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}").'">';
+            }            
         }
 
     }
