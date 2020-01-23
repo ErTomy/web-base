@@ -18,6 +18,7 @@ Fichero que almacena la configuración básica del proyecto con las siguientes c
 * ORGANIZATION: el metadato organization que se añade a la cabecera
 * ICON: el favicon que tendra la web
 * FROM: email remitente de los correos que se mandan
+* SECRET: clave por la que se generarán los tokens usados en los formularios
 
 #### redirecciones.php ####
 

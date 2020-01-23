@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 
-
+session_start();
 
 function __autoload($nombre_clase) {
     include 'class/'.$nombre_clase . '.php';
