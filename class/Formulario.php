@@ -21,7 +21,7 @@ class Formulario {
         }    
     }
 
-    public function init($clases)
+    public function init($clases='')
     {
         echo '<form action="'.BASE_URL.'" id="form'.$this->id.'" class="cmsForm" data-clases="'.$clases.'">
                 <input type="hidden" name="formName" value="'.$this->name.'">
@@ -29,8 +29,6 @@ class Formulario {
     }
 
     public function validar(){
-        
-
         foreach ($this->form['fields'] as $field => $validations) {
             foreach ($validations as $type => $msg) {
                 switch ($type) {
@@ -55,13 +53,27 @@ class Formulario {
                     $html = str_replace('{'.$field.'}', $_POST[$field], $html);
                 }                    
                 @mail(str_replace('mailto:', '', $this->form['action']), $this->form['subject'], $html, $cabeceras);                  
+            }elseif($this->form['action'] == 'comentar'){
+                $file = str_replace('class', 'comentarios' . DIRECTORY_SEPARATOR, __DIR__) . str_replace('/', '__', str_replace(BASE_URL, '', $_SERVER['HTTP_REFERER'])) . '.json';                
+                $comentarios = (file_exists($file))?json_decode(file_get_contents($file)):[];
+                $comentario = $_POST;
+                $comentario['date'] = date('d/m/Y H:i:s');
+                $comentario['validate'] = false;
+                $comentarios[] = $comentario;
+                file_put_contents($file, json_encode($comentarios));      
             }
             $this->OK['id'] = $this->id;
             $this->OK['mensaje'] = $this->form['msgOK'];
-            return true;
+            return true;          
         }else{
             return false;
         }
+    }
+
+    public function comentarios(){
+        $path = str_replace(BASE_URL, '', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+        $file = str_replace('class', 'comentarios' . DIRECTORY_SEPARATOR, __DIR__) . str_replace('/', '__', $path) . '.json';
+        return (file_exists($file))? array_filter(json_decode(file_get_contents($file)), function($comment) {return $comment->validate;}):[];        
     }
 
 }

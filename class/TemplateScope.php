@@ -68,5 +68,13 @@ class TemplateScope {
 
     }
 
+    public function _asset($file){
+        $path = str_replace( DIRECTORY_SEPARATOR . 'class', $file, __DIR__);
+        if(file_exists($path)){            
+            echo ((substr(BASE_URL, -1) == '/')?substr(BASE_URL, 0, strlen(BASE_URL)-1):BASE_URL) . $file . '?time=' . filemtime($path);
+        }elseif(DEBUG){
+            echo 'el fichero '. $file .' no existe';
+        }
+    }
 
 }

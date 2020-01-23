@@ -15,18 +15,14 @@ $.fn.serializeObject = function()
     return o;
 };
 
-
-
-
+var render = function (props) { return function(tok, i) { return (i % 2) ? props[tok] : tok; };};
 
 $(function() {
-
     $('.cmsForm').each(function(){
         if($(this).data('clases').length > 0){
             $(this).addClass($(this).data('clases'));
         }
     });
-
     $('.cmsForm').submit(function(e){
         e.preventDefault();
         var _self = $(this);
@@ -47,14 +43,9 @@ $(function() {
             _self.find('input[type="checkbox"]').prop('checked', false);                        
         })
         .fail(function( jqXHR, textStatus, errorThrown ) {
-            
-            
-
             var msg = '';
-                $.each(jqXHR.responseJSON, function(index, value){
-                    
+                $.each(jqXHR.responseJSON, function(index, value){                    
                     _self.find('input[name="'+index+'"], textarea[name="'+index+'"], select[name="'+index+'"]').parent().addClass('has-error');
-
                     _self.find('input[name="'+index+'"], textarea[name="'+index+'"]').addClass('cms_error').after($('<span>', {
                       'class':'errorForm',
                       'id':'error'+index
@@ -63,9 +54,6 @@ $(function() {
                       'class':'errorForm',
                       'id':'error'+index
                     }).text(value));
-
-
-
                     _self.find('input[name="'+index+'"], textarea[name="'+index+'"]').keypress(function(event) {
                         $(this).removeClass('cms_error');
                         $(this).parent().removeClass('has-error');
@@ -83,18 +71,6 @@ $(function() {
                 });
                if(msg.length > 0) $('#appointmentError, #appointmentError2, #contactError').html(msg).show();
                 $('#appointmentSuccess, #appointmentSuccess2, #contactSuccess').hide();
-
-
-
-
-
         });
-      });
-
-
-
-
-
-
-
+      });    
 });

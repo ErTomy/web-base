@@ -20,7 +20,7 @@ if(array_key_exists('formName', $_POST) && array_key_exists('formId', $_POST)){
     if($form->validar() === true){
         echo json_encode($form->OK);
     }else{
-        http_response_code(404);
+        http_response_code(422);
         echo json_encode($form->errores);
     }
 }else{

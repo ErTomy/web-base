@@ -27,5 +27,21 @@ $formularios = [
             ]
         ],
         'action'=>'/buscador'
+    ],
+    'comentario'=>[
+        'fields'=>[
+            'nombre'=>[
+                'required'=>'Debe indicar el nombre'
+            ],
+            'email'=>[
+                'required'=>'Debe indicar el email', 
+                'email'=>'Debe indicar un email válido'
+            ],
+            'comentario'=>[
+                'required'=>'Debe indicar un comentario'
+            ]
+        ],
+        'action'=>'comentar',
+        'msgOK'=>'Gracias por tu comentario'
     ]
 ];

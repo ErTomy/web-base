@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="/js/cms-formularios.js"></script>
+  <script src="<?php $this->_asset('/js/cms-formularios.js'); ?>"></script>
 </head>
 <body>
 
-<!-- el formulario -->
+<!---------------------------- el formulario de contacto ----------------------------------->
 <?php $form = new Formulario('contacto'); ?>
 <?php $form->init('clase1 clase2'); ?> 
 
@@ -32,6 +32,41 @@
 <div id="<?php echo $form->divOK; ?>"></div>
 
 
+
+<hr>
+
+
+
+
+
+<!---------------------------- el formulario de comentario ----------------------------------->
+<?php $form = new Formulario('comentario'); ?>
+<?php $form->init(); ?> 
+<fieldset> Nombre <input type="text" name="nombre"> </fieldset> 
+<fieldset> Email <input type="text" name="email"></fieldset>
+<fieldset> Comentario <textarea name="comentario"></textarea></fieldset>
+<fieldset> <input type="submit" value="Enviar"> </fieldset>
+</form>
+
+<!-- capa de formulario enviado -->
+<div id="<?php echo $form->divOK; ?>"></div>
+
+
+<!--------------------------------- mostrar comentarios -------------------------------------->
+
+<?php $comentarios = $form->comentarios(); ?>
+Número de comentarios: <?php echo count($comentarios); ?>
+<ul>
+  <?php foreach($comentarios as $key=>$comentario){ ?>
+    <li>
+      <label> Fecha:</label> <?php echo $comentario->date; ?> </fieldset> <br>
+      <label> Nombre:</label> <?php echo $comentario->nombre; ?> </fieldset> <br>
+      <label> Email:</label> <?php echo $comentario->email; ?> </fieldset> <br>
+      <label> Comentario:</label> <?php echo $comentario->comentario; ?> </fieldset> 
+    </li>
+  <?php } ?>
+
+</ul>
 
 
 

@@ -52,6 +52,10 @@ Directorio donde se almacenan los ficheros de cache.
 
 Directorio donde se almacenan las clases. En caso de necesitar crear nuevas lo ideal es crearlas aquí
 
+#### /comentarios ####
+
+Directorio donde se almacenan en formato json los comentarios de cada página
+
 #### /plantillas ####
 
 Directorio donde se almacenan las plantillas. En caso de tener una plantilla en el directorio /plantillas y otra con el mismo nombre en el directorio /plantillas/amp, se generará una versión amp de la página
@@ -63,6 +67,10 @@ Directorio donde se almacenan los includes que se van a hacer desde otras planti
 #### /plantillas/emails ####
 
 Directorio donde se almacenan los htmls que se mandan por email desde los formularios 
+
+#### /tracks ####
+
+Directorio donde se almacenan los clicks que se hacen sobre enlaces
 
 #### /xsl-stylesheets ####
 

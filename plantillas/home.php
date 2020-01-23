@@ -6,7 +6,8 @@
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="/js/cms-track.js"></script>
+    <script src="<?php $this->_asset('/js/cms-track.js'); ?>"></script>
+    
     
   </head>
   <body>
