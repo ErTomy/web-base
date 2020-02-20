@@ -1,6 +1,0 @@
-<?php
-
-$variables = array(
-  'aa'=>'El perro de San Roque no tiene rabo porque Ramón Ramírez se lo ha cortado',
-  'bb'=>'El perro de Ramón Ramírez no tiene rabo porque se lo han robado'
-);
