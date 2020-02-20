@@ -12,9 +12,11 @@ class Template {
 
         // comprobación por si esta cargando una url amp
         $ruta = ($path == '/amp' || substr($path, 0, 5) == '/amp/')? '/' . substr($path, 5, strlen($path)-5) : $path;
-        $this->template = ($ruta != $path)?'plantillas/amp/'.$rutas[$ruta]['plantilla']:'plantillas/'.$rutas[$ruta]['plantilla'];
+		if(isset($rutas[$ruta])){
+			$this->template = ($ruta != $path)?'plantillas/amp/'.$rutas[$ruta]['plantilla']:'plantillas/'.$rutas[$ruta]['plantilla'];
+		}	
 
-        if(!isset($rutas[$ruta]['plantilla'])){
+        if(!isset($rutas[$ruta]) || !isset($rutas[$ruta]['plantilla'])){
             if(isset($redirecciones[$path])){
               Header( "HTTP/1.1 301 Moved Permanently" );
               Header( "Location: " . BASE_URL. $redirecciones[$path]);

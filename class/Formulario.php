@@ -66,7 +66,7 @@ class Formulario {
                     $comentario['date'] = date('d/m/Y H:i:s');
                     $comentario['validate'] = false;
                     $comentarios[] = $comentario;
-                    file_put_contents($file, json_encode($comentarios));      
+                    file_put_contents($file, json_encode($comentarios, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE));      
                 }
                 $this->OK['id'] = $this->id;
                 $this->OK['mensaje'] = $this->form['msgOK'];

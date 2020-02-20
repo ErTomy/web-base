@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', 'http://web-base.local/'); // url base de la web
+define('BASE_URL', 'http://srv.local/web-base/'); // url base de la web
 define('DEBUG', true); // mostrar el depurador
 define('CACHE', 0); // tiempo de cache de las páginas en segundos
 
@@ -19,3 +19,7 @@ define('FROM', 'ertomy@gmail.com');
 
 /* la clave por la que se generan los tokens */
 define('SECRET', 'Palabra clave');
+
+/* datos de acceso al administrador */
+define('ADMINUSER', 'tomy');
+define('ADMINPASS', 'pass');
