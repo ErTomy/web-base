@@ -23,6 +23,292 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-SG": "./node_modules/moment/locale/en-SG.js",
+	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/app.component.html":
 /*!**************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/app.component.html ***!
@@ -31,6 +317,28 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /***/ (function(module, exports) {
 
 module.exports = "<app-navbar *ngIf=\"router.url != '/login'\"></app-navbar>\r\n\r\n<router-outlet></router-outlet>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/components/comentarios-pagina/comentarios-pagina.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/components/comentarios-pagina/comentarios-pagina.component.html ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<main>\n    <div class=\"container\">\n  \n  \n      <div class=\"row mt-2\">\n        <div class=\"col\">\n          <h3>Comentarios de la página {{path.replace('comentarios/', '').replace('.json', '').split('__').join('/')}}</h3>\n        </div>        \n      </div>\n  \n      <div class=\"row\">\n  \n  \n  <table class=\"table\">\n      <thead>\n        <tr>\n          <th scope=\"col\">Fecha</th>\n          <th scope=\"col\">Comentario</th>\n          <th scope=\"col\">Estado</th>\n          <th scope=\"col\">#</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr *ngFor=\"let entry of comentarios; let id = index\">\n          <td>{{entry.date}}</td>\n          <td>{{entry.comentario}} </td>\n          <td>\n            <i class=\"far fa-thumbs-up\" *ngIf=\"entry.validate\"> Validado</i>\n            <i class=\"far fa-hourglass\" *ngIf=\"!entry.validate\"> Pendiente</i>                 \n          </td>\n          <td>\n            <button type=\"button\" class=\"btn btn-primary btn-sm\" data-toggle=\"modal\" data-target=\"#exampleModal\" (click)=\"selComentario(entry, id)\">\n                modificar\n            </button>\n          </td>\n        </tr>      \n      </tbody>\n  </table>\n  \n</div>\n  \n\n\n  <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n      <div class=\"modal-dialog\" role=\"document\">\n        <div class=\"modal-content\">\n          <div class=\"modal-header\">\n            <h5 class=\"modal-title\" id=\"exampleModalLabel\">Editando comentario</h5>\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" #closeModal>\n              <span aria-hidden=\"true\">&times;</span>\n            </button>\n          </div>\n          <div class=\"modal-body\">\n            <form>\n              <div class=\"form-group row\">\n                <label for=\"staticEmail\" class=\"col-sm-2 col-form-label\">Nombre</label>\n                <div class=\"col-sm-10\">\n                  <input type=\"text\" class=\"form-control\" [(ngModel)]=\"comentario.nombre\" name=\"nombre\">\n                </div>\n              </div>\n              <div class=\"form-group row\">\n                <label for=\"staticEmail\" class=\"col-sm-2 col-form-label\">Email</label>\n                <div class=\"col-sm-10\">\n                  <input type=\"text\" class=\"form-control\" [(ngModel)]=\"comentario.email\" name=\"email\">\n                </div>\n              </div>            \n              <div class=\"form-group row\">\n                <label for=\"staticEmail\" class=\"col-sm-2 col-form-label\">Fecha</label>\n                <div class=\"col-sm-10\">\n                  <input type=\"text\" class=\"form-control\" [(ngModel)]=\"comentario.date\" name=\"date\">\n                </div>\n              </div>            \n              <div class=\"form-group row\">\n                <label for=\"staticEmail\" class=\"col-sm-2 col-form-label\">Comentario</label>\n                <div class=\"col-sm-10\">\n                    <textarea class=\"form-control\" [(ngModel)]=\"comentario.comentario\" name=\"comentario\"></textarea>                  \n                </div>\n              </div>            \n              <div class=\"form-group row\">\n                <label for=\"staticEmail\" class=\"col-sm-2 col-form-label\">Estado</label>\n                <div class=\"col-sm-10\">\n                    <select class=\"form-control\" [(ngModel)]=\"comentario.validate\" name=\"validate\">\n                        <option [ngValue]=\"true\">Validado</option>\n                        <option [ngValue]=\"false\">Pendiente</option>\n                    </select>                  \n                </div>\n              </div>\n\n            </form>\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-danger btn-sm\" data-dismiss=\"modal\" (click)=\"delete()\">Borrar</button>\n            <button type=\"button\" class=\"btn btn-secondary btn-sm\" data-dismiss=\"modal\">Cerrar</button>\n            <button type=\"button\" class=\"btn btn-success btn-sm\" data-dismiss=\"modal\" (click)=\"save()\">Guardar</button>\n          </div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n  </main>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/components/comentarios/comentarios.component.html":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/components/comentarios/comentarios.component.html ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<main>\n    <div class=\"container\">\n  \n  \n      <div class=\"row mt-2\">\n        <div class=\"col\">\n          <h3>Comentarios</h3>\n        </div>        \n      </div>\n  \n      <div class=\"row\">\n  \n  \n  <table class=\"table\">\n      <thead>\n        <tr>\n          <th scope=\"col\">Página</th>\n          <th scope=\"col\">Comentarios</th>\n          <th scope=\"col\">Pendientes</th>\n          <th scope=\"col\">#</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr *ngFor=\"let entry of paginas\">\n          <td>{{entry.url}}</td>\n          <td>{{entry.comentarios}} </td>\n          <td>{{entry.pendientes}} </td>\n          <td>\n            <a [routerLink]=\"['/' + entry.path]\" class=\"btn btn-primary btn-sm\">\n              <i class=\"far fa-eye\"></i> Ver comentarios\n            </a>\n          </td>\n        </tr>      \n      </tbody>\n  </table>\n  \n</div>\n  \n  </div>\n  </main>\n"
 
 /***/ }),
 
@@ -74,7 +382,7 @@ module.exports = "<main class=\"login-form\">\n  <div class=\"container\">\n    
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo01\" aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n\n    <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n      <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/home' || router.url=='/'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/home']\">Páginas</a>\n        </li>\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/redirecciones'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/redirecciones']\">Redirecciones</a>\n        </li>\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/variables'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/variables']\">Variables</a>\n        </li>\n        <!--\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/formularios'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/formularios']\">Formularios</a>\n        </li>\n        -->\n      </ul>\n      <button class=\"btn btn-outline-light btn-sm\" type=\"submit\" (click)=\"logout()\">Logout</button>\n      \n    </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo01\" aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n\n    <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n      <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/home' || router.url=='/'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/home']\">Páginas</a>\n        </li>\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/redirecciones'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/redirecciones']\">Redirecciones</a>\n        </li>\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/variables'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/variables']\">Variables</a>\n        </li>\n        <!--\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/formularios'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/formularios']\">Formularios</a>\n        </li>\n        -->\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/comentarios'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/comentarios']\">Comentarios</a>\n        </li>\n        <li class=\"nav-item\" [ngClass]=\"{'active': router.url=='/tracks'}\">\n          <a class=\"nav-link\" [routerLink]=\"['/tracks']\">Estadisticas enlaces</a>\n        </li>\n      </ul>\n      <button class=\"btn btn-outline-light btn-sm\" type=\"submit\" (click)=\"logout()\">Logout</button>\n      \n    </div>\n</nav>"
 
 /***/ }),
 
@@ -86,6 +394,17 @@ module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
 /***/ (function(module, exports) {
 
 module.exports = "<main>\n  <div class=\"container\">\n\n\n    <div class=\"row mt-2\">\n      <div class=\"col\">\n        <h3>Redirecciones</h3>\n      </div>\n      <div class=\"col-auto\">\n        <button type=\"button\" class=\"btn btn-primary btn-sm pull-right\" data-toggle=\"modal\" data-target=\"#exampleModal\" (click)=\"addPath()\">Añadir redirección</button>\n      </div>\n    </div>\n\n    <div class=\"row\">\n\n\n<table class=\"table\">\n    <thead>\n      <tr>\n        <th scope=\"col\">Origen</th>\n        <th scope=\"col\">Destino</th>\n        <th scope=\"col\">#</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let entry of redirecciones | keys\">\n        <td>{{entry.key}} </td>\n        <td>{{entry.value}} </td>\n        <td>\n            <button type=\"button\" class=\"btn btn-primary btn-sm\" data-toggle=\"modal\" data-target=\"#exampleModal\" (click)=\"selectPath(entry)\">\n                modificar\n            </button>\n        </td>\n      </tr>      \n    </tbody>\n</table>\n\n    </div>\n\n<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <h5 class=\"modal-title\" id=\"exampleModalLabel\">Editando ruta {{selectedPath}}</h5>\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" #closeModal>\n            <span aria-hidden=\"true\">&times;</span>\n          </button>\n        </div>\n        <div class=\"modal-body\">\n          <form>\n            <div class=\"form-group row\">\n              <label for=\"staticEmail\" class=\"col-sm-2 col-form-label\">Origen</label>\n              <div class=\"col-sm-10\">\n                <input type=\"text\" class=\"form-control\" [(ngModel)]=\"redireccion.origen\" name=\"path\">\n              </div>\n            </div>\n            <div class=\"form-group row\">\n              <label for=\"staticEmail\" class=\"col-sm-2 col-form-label\">Destino</label>\n              <div class=\"col-sm-10\">\n                <input type=\"text\" class=\"form-control\" [(ngModel)]=\"redireccion.destino\" name=\"destino\">\n              </div>\n            </div>            \n  \n          </form>\n        </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-danger btn-sm\" data-dismiss=\"modal\" (click)=\"delete()\">Borrar</button>\n          <button type=\"button\" class=\"btn btn-secondary btn-sm\" data-dismiss=\"modal\">Cerrar</button>\n          <button type=\"button\" class=\"btn btn-success btn-sm\" (click)=\"save()\">Guardar</button>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</div>\n</main>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/components/tracks/tracks.component.html":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/components/tracks/tracks.component.html ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<main>\n    <div class=\"container\">\n\n        <div class=\"row pt-2 pb-2 form-inline justify-content-center align-items-center\">            \n            <label>Año:</label> \n            <select (change)=\"loadData()\" [(ngModel)]=\"anno\" class=\"form-control\">\n                <option *ngFor=\"let elanno of annos\" [value]=\"elanno\">{{elanno}}</option>\n            </select>\n\n            <label class=\"pl-2\">Mes:</label> \n            <select (change)=\"loadData()\" [(ngModel)]=\"mes\" class=\"form-control\">\n                <option *ngFor=\"let elmes of meses; let i=index\" [value]=\"i\">{{elmes}}</option>\n            </select>\n        </div>\n\n        <table class=\"table table-responsive table-condensed\">\n            <tr>\n              <th>#</th>  \n              <th *ngFor=\"let label of lineChartLabels\">{{label}}</th>\n            </tr>\n            <tr *ngFor=\"let d of lineChartData; let i=index\" [class]=\"'line-'+i\">\n              <td>{{d.label}}</td>  \n              <td *ngFor=\"let label of lineChartLabels; let j=index\">{{d && d.data[j]}}</td>\n            </tr>\n        </table>\n\n        <div style=\"display: block;\">\n            <canvas baseChart width=\"400\" height=\"250\"\n            [datasets]=\"lineChartData\"\n            [labels]=\"lineChartLabels\"\n            [options]=\"lineChartOptions\"\n            [colors]=\"lineChartColors\"\n            [legend]=\"lineChartLegend\"\n            [chartType]=\"lineChartType\"\n            [plugins]=\"lineChartPlugins\">\n            </canvas>\n        </div>\n\n    </div>\n</main>"
 
 /***/ }),
 
@@ -118,6 +437,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_redirecciones_redirecciones_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/redirecciones/redirecciones.component */ "./src/app/components/redirecciones/redirecciones.component.ts");
 /* harmony import */ var _components_variables_variables_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/variables/variables.component */ "./src/app/components/variables/variables.component.ts");
 /* harmony import */ var _components_formularios_formularios_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/formularios/formularios.component */ "./src/app/components/formularios/formularios.component.ts");
+/* harmony import */ var _components_comentarios_comentarios_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/comentarios/comentarios.component */ "./src/app/components/comentarios/comentarios.component.ts");
+/* harmony import */ var _components_comentarios_pagina_comentarios_pagina_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/comentarios-pagina/comentarios-pagina.component */ "./src/app/components/comentarios-pagina/comentarios-pagina.component.ts");
+/* harmony import */ var _components_tracks_tracks_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/tracks/tracks.component */ "./src/app/components/tracks/tracks.component.ts");
+
+
+
 
 
 
@@ -131,6 +456,9 @@ var routes = [
     { path: 'redirecciones', component: _components_redirecciones_redirecciones_component__WEBPACK_IMPORTED_MODULE_5__["RedireccionesComponent"] },
     { path: 'variables', component: _components_variables_variables_component__WEBPACK_IMPORTED_MODULE_6__["VariablesComponent"] },
     { path: 'formularios', component: _components_formularios_formularios_component__WEBPACK_IMPORTED_MODULE_7__["FormulariosComponent"] },
+    { path: 'comentarios', component: _components_comentarios_comentarios_component__WEBPACK_IMPORTED_MODULE_8__["ComentariosComponent"] },
+    { path: 'comentarios/:path', component: _components_comentarios_pagina_comentarios_pagina_component__WEBPACK_IMPORTED_MODULE_9__["ComentariosPaginaComponent"] },
+    { path: 'tracks', component: _components_tracks_tracks_component__WEBPACK_IMPORTED_MODULE_10__["TracksComponent"] },
     { path: 'home', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"] },
     { path: '**', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"] }
 ];
@@ -227,6 +555,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_redirecciones_redirecciones_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/redirecciones/redirecciones.component */ "./src/app/components/redirecciones/redirecciones.component.ts");
 /* harmony import */ var _components_variables_variables_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/variables/variables.component */ "./src/app/components/variables/variables.component.ts");
 /* harmony import */ var _components_formularios_formularios_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/formularios/formularios.component */ "./src/app/components/formularios/formularios.component.ts");
+/* harmony import */ var _components_comentarios_comentarios_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/comentarios/comentarios.component */ "./src/app/components/comentarios/comentarios.component.ts");
+/* harmony import */ var _components_tracks_tracks_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/tracks/tracks.component */ "./src/app/components/tracks/tracks.component.ts");
+/* harmony import */ var _components_comentarios_pagina_comentarios_pagina_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/comentarios-pagina/comentarios-pagina.component */ "./src/app/components/comentarios-pagina/comentarios-pagina.component.ts");
+/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/fesm5/ng2-charts.js");
+
+
+
+
 
 
 
@@ -257,13 +593,17 @@ var AppModule = /** @class */ (function () {
                 _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__["NavbarComponent"],
                 _components_redirecciones_redirecciones_component__WEBPACK_IMPORTED_MODULE_14__["RedireccionesComponent"],
                 _components_variables_variables_component__WEBPACK_IMPORTED_MODULE_15__["VariablesComponent"],
-                _components_formularios_formularios_component__WEBPACK_IMPORTED_MODULE_16__["FormulariosComponent"]
+                _components_formularios_formularios_component__WEBPACK_IMPORTED_MODULE_16__["FormulariosComponent"],
+                _components_comentarios_comentarios_component__WEBPACK_IMPORTED_MODULE_17__["ComentariosComponent"],
+                _components_tracks_tracks_component__WEBPACK_IMPORTED_MODULE_18__["TracksComponent"],
+                _components_comentarios_pagina_comentarios_pagina_component__WEBPACK_IMPORTED_MODULE_19__["ComentariosPaginaComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"]
+                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
+                ng2_charts__WEBPACK_IMPORTED_MODULE_20__["ChartsModule"]
             ],
             providers: [
                 _services_http_service__WEBPACK_IMPORTED_MODULE_8__["HttpService"],
@@ -341,6 +681,166 @@ var AuthInterceptorService = /** @class */ (function () {
             _services_user_service__WEBPACK_IMPORTED_MODULE_5__["UserService"]])
     ], AuthInterceptorService);
     return AuthInterceptorService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/comentarios-pagina/comentarios-pagina.component.css":
+/*!********************************************************************************!*\
+  !*** ./src/app/components/comentarios-pagina/comentarios-pagina.component.css ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".fa-thumbs-up{\r\n    color:green;\r\n}\r\n\r\n.fa-hourglass{\r\n    color:red;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb21lbnRhcmlvcy1wYWdpbmEvY29tZW50YXJpb3MtcGFnaW5hLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxTQUFTO0FBQ2IiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NvbWVudGFyaW9zLXBhZ2luYS9jb21lbnRhcmlvcy1wYWdpbmEuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5mYS10aHVtYnMtdXB7XHJcbiAgICBjb2xvcjpncmVlbjtcclxufVxyXG5cclxuLmZhLWhvdXJnbGFzc3tcclxuICAgIGNvbG9yOnJlZDtcclxufSJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/components/comentarios-pagina/comentarios-pagina.component.ts":
+/*!*******************************************************************************!*\
+  !*** ./src/app/components/comentarios-pagina/comentarios-pagina.component.ts ***!
+  \*******************************************************************************/
+/*! exports provided: ComentariosPaginaComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComentariosPaginaComponent", function() { return ComentariosPaginaComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_http_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/http.service */ "./src/app/services/http.service.ts");
+
+
+
+
+var ComentariosPaginaComponent = /** @class */ (function () {
+    function ComentariosPaginaComponent(route, httpService) {
+        this.route = route;
+        this.httpService = httpService;
+        this.comentario = {
+            formName: "",
+            formId: "",
+            'csrf-token': "",
+            nombre: "",
+            email: "",
+            comentario: "",
+            date: "",
+            validate: false
+        };
+    }
+    ComentariosPaginaComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.path = 'comentarios/' + this.route.snapshot.paramMap.get('path');
+        this.httpService.getComentariosPagina(this.path).subscribe(function (res) {
+            _this.comentarios = res;
+        }, function (error) {
+            console.error(error);
+        });
+    };
+    ComentariosPaginaComponent.prototype.selComentario = function (comentario, id) {
+        this.comentario = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, comentario);
+        this.id = id;
+    };
+    ComentariosPaginaComponent.prototype.delete = function () {
+        if (confirm('¿Estas seguro de borrar el comentario?')) {
+            this.comentarios.splice(this.id, 1);
+            this.saveComentarios();
+        }
+    };
+    ComentariosPaginaComponent.prototype.save = function () {
+        this.comentarios[this.id] = this.comentario;
+        this.saveComentarios();
+    };
+    ComentariosPaginaComponent.prototype.saveComentarios = function () {
+        var _this = this;
+        this.httpService.setComentariosPagina(this.path, this.comentarios).subscribe(function (res) {
+            _this.id = null;
+        }, function (error) {
+            console.error(error);
+        });
+    };
+    ComentariosPaginaComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] },
+        { type: _services_http_service__WEBPACK_IMPORTED_MODULE_3__["HttpService"] }
+    ]; };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('closeModal', { static: false }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"])
+    ], ComentariosPaginaComponent.prototype, "closeModal", void 0);
+    ComentariosPaginaComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-comentarios-pagina',
+            template: __webpack_require__(/*! raw-loader!./comentarios-pagina.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/comentarios-pagina/comentarios-pagina.component.html"),
+            styles: [__webpack_require__(/*! ./comentarios-pagina.component.css */ "./src/app/components/comentarios-pagina/comentarios-pagina.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"],
+            _services_http_service__WEBPACK_IMPORTED_MODULE_3__["HttpService"]])
+    ], ComentariosPaginaComponent);
+    return ComentariosPaginaComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/comentarios/comentarios.component.css":
+/*!******************************************************************!*\
+  !*** ./src/app/components/comentarios/comentarios.component.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY29tZW50YXJpb3MvY29tZW50YXJpb3MuY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/components/comentarios/comentarios.component.ts":
+/*!*****************************************************************!*\
+  !*** ./src/app/components/comentarios/comentarios.component.ts ***!
+  \*****************************************************************/
+/*! exports provided: ComentariosComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComentariosComponent", function() { return ComentariosComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_http_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/http.service */ "./src/app/services/http.service.ts");
+
+
+
+var ComentariosComponent = /** @class */ (function () {
+    function ComentariosComponent(httpService) {
+        this.httpService = httpService;
+    }
+    ComentariosComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.httpService.getPaginasComentadas().subscribe(function (res) {
+            _this.paginas = res;
+        }, function (error) {
+            console.error(error);
+        });
+    };
+    ComentariosComponent.ctorParameters = function () { return [
+        { type: _services_http_service__WEBPACK_IMPORTED_MODULE_2__["HttpService"] }
+    ]; };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('closeModal', { static: false }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"])
+    ], ComentariosComponent.prototype, "closeModal", void 0);
+    ComentariosComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-comentarios',
+            template: __webpack_require__(/*! raw-loader!./comentarios.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/comentarios/comentarios.component.html"),
+            styles: [__webpack_require__(/*! ./comentarios.component.css */ "./src/app/components/comentarios/comentarios.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_http_service__WEBPACK_IMPORTED_MODULE_2__["HttpService"]])
+    ], ComentariosComponent);
+    return ComentariosComponent;
 }());
 
 
@@ -770,6 +1270,106 @@ var RedireccionesComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/components/tracks/tracks.component.css":
+/*!********************************************************!*\
+  !*** ./src/app/components/tracks/tracks.component.css ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdHJhY2tzL3RyYWNrcy5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/components/tracks/tracks.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/components/tracks/tracks.component.ts ***!
+  \*******************************************************/
+/*! exports provided: TracksComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TracksComponent", function() { return TracksComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/fesm5/ng2-charts.js");
+/* harmony import */ var _services_http_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/http.service */ "./src/app/services/http.service.ts");
+
+
+
+
+var TracksComponent = /** @class */ (function () {
+    function TracksComponent(httpService) {
+        this.httpService = httpService;
+        this.lineChartData = [{ data: [0], label: 'Inicial' }];
+        this.lineChartLabels = ['Inicial'];
+        this.lineChartOptions = {
+            responsive: true,
+            annotation: {},
+            legend: {
+                position: 'right'
+            }
+        };
+        this.lineChartColors = [];
+        this.lineChartLegend = true;
+        this.lineChartType = 'line';
+        this.lineChartPlugins = [];
+        this.annos = [2018, 2019, 2020];
+        this.anno = new Date().getFullYear();
+        this.meses = ['Anual', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+        this.mes = 0;
+    }
+    TracksComponent.prototype.ngOnInit = function () {
+        this.loadData();
+    };
+    TracksComponent.prototype.loadData = function () {
+        var _this = this;
+        this.httpService.getTrack(this.mes, this.anno).subscribe(function (res) {
+            _this.lineChartData = [];
+            if (_this.mes == 0) {
+                _this.lineChartLabels = _this.meses.slice(1);
+            }
+            else {
+                _this.lineChartLabels = [];
+                for (var index = 1; index <= new Date(_this.anno, _this.mes, 0).getDate(); index++) {
+                    _this.lineChartLabels.push(index.toString());
+                }
+            }
+            Object.keys(res).forEach(function (track) {
+                var data = { data: [], label: track };
+                _this.lineChartLabels.forEach(function (mes) {
+                    data.data.push(res[track][mes]);
+                });
+                _this.lineChartData.push(data);
+            });
+        }, function (error) {
+            console.error(error);
+        });
+        this.chart.update();
+    };
+    TracksComponent.ctorParameters = function () { return [
+        { type: _services_http_service__WEBPACK_IMPORTED_MODULE_3__["HttpService"] }
+    ]; };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])(ng2_charts__WEBPACK_IMPORTED_MODULE_2__["BaseChartDirective"], { static: true }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", ng2_charts__WEBPACK_IMPORTED_MODULE_2__["BaseChartDirective"])
+    ], TracksComponent.prototype, "chart", void 0);
+    TracksComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-tracks',
+            template: __webpack_require__(/*! raw-loader!./tracks.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/tracks/tracks.component.html"),
+            styles: [__webpack_require__(/*! ./tracks.component.css */ "./src/app/components/tracks/tracks.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_http_service__WEBPACK_IMPORTED_MODULE_3__["HttpService"]])
+    ], TracksComponent);
+    return TracksComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/components/variables/variables.component.css":
 /*!**************************************************************!*\
   !*** ./src/app/components/variables/variables.component.css ***!
@@ -961,6 +1561,26 @@ var HttpService = /** @class */ (function () {
     };
     HttpService.prototype.templates = function () {
         return this.http.get(this.baseUrl + 'api/v1/rutas/templates');
+    };
+    HttpService.prototype.getPaginasComentadas = function () {
+        return this.http.get(this.baseUrl + 'api/v1/comments/pages');
+    };
+    HttpService.prototype.getComentariosPagina = function (path) {
+        return this.http.post(this.baseUrl + 'api/v1/comments/get', {
+            path: path
+        });
+    };
+    HttpService.prototype.setComentariosPagina = function (path, json) {
+        return this.http.post(this.baseUrl + 'api/v1/comments/set', {
+            path: path,
+            comments: json
+        });
+    };
+    HttpService.prototype.getTrack = function (month, year) {
+        return this.http.post(this.baseUrl + 'api/v1/tracks/get', {
+            month: month,
+            year: year
+        });
     };
     HttpService.ctorParameters = function () { return [
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
