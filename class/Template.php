@@ -22,6 +22,7 @@ class Template {
               Header( "Location: " . BASE_URL. $redirecciones[$path]);
               exit; die();
             }else{
+              Header("HTTP/1.0 404 Not Found");
               if(DEBUG) echo sprintf('Ruta <b>%s</b> no encontrada en el fichero rutas.php', $path);
               $this->template = 'plantillas/' . ERROR_404;
             }
