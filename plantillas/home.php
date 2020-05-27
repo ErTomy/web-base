@@ -1,14 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="<?php echo $this->_lang(); ?>">
   <head>
     <meta charset="utf-8">
-    <?php $this->_metas(); ?>
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="<?php $this->_asset('/js/cms-track.js'); ?>"></script>
-    
-    
+    <?php $this->_metas(); ?>    
   </head>
   <body>
       <?php if($this->include) $this->_include("header.php"); ?>
@@ -37,7 +31,8 @@
     <a href="pagina/formulario" class="btnTrack" data-track="web-sin-blank">formulario</a><br>
 
 
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="<?php $this->_asset('/js/cms-track.js'); ?>"></script>
 
 
   </body>

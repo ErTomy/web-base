@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', 'http://srv.local/web-base/'); // url base de la web
+define('BASE_URL', 'http://localhost/'); // url base de la web
 define('DEBUG', true); // mostrar el depurador
 define('CACHE', 0); // tiempo de cache de las páginas en segundos
 

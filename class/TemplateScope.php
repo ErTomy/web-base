@@ -39,6 +39,10 @@ class TemplateScope {
         }
     }
 
+    public function _lang(){
+        return (defined('LANG'))?LANG:'es'; 
+    }
+
     public function _metas()
     {
         if (defined('LANG')) echo '<meta name="lang" content="'.LANG.'" />';
@@ -46,11 +50,10 @@ class TemplateScope {
         if (defined('AUTHOR')) echo '<meta name="author" content="'.AUTHOR.'" />';
         if (defined('ORGANIZATION')) echo '<meta name="organization" content="'.ORGANIZATION.'" />';
         if (defined('ICON')) echo ' <link rel="icon" href="'.ICON.'" type="image/x-icon" /><link rel="shortcut icon" href="'.ICON.'" type="image/x-icon" />';
-
-        if (isset($this->__data['title'])) echo '<title>'. $this->title .'</title><meta property="og:title" content="'. $this->title .'" /><meta itemprop="name" content="'. $this->title .'">';
-        if (isset($this->__data['description'])) echo '<meta name="description" content="'. $this->description .'" /><meta property="og:description" content="'. $this->description .'" /><meta itemprop="description" content="'. $this->description .'">';
-        if (isset($this->__data['keywords'])) echo '<meta name="description" content="'. $this->keywords .'" /><meta property="article:tag" content="'. $this->keywords .'" />';
-        if (isset($this->__data['image'])) echo '<meta property="og:image" content="'.$this->image.'" /><meta itemprop="image" content="'.$this->image.'">';
+        if (isset($this->__data['title'])) echo '<title>'. $this->title .'</title><meta property="og:title" content="'. $this->title .'" />';        
+        if (isset($this->__data['description'])) echo '<meta name="description" content="'. $this->description .'" /><meta property="og:description" content="'. $this->description .'" />';
+        if (isset($this->__data['keywords'])) echo '<meta name="keywords" content="'. $this->keywords .'" /><meta property="article:tag" content="'. $this->keywords .'" />';
+        if (isset($this->__data['image'])) echo '<meta property="og:image" content="'.$this->image.'" />';
  
         echo '<base href="'. BASE_URL .'">';
 
