@@ -27,6 +27,10 @@ $(function() {
         e.preventDefault();
         var _self = $(this);
         
+        $('.errorForm').remove();
+        $('.has-error').removeClass('has-error');
+
+
         $.ajax({
           url: $(this).attr('action'),
           type: 'POST',

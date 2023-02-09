@@ -1,12 +1,14 @@
 <?php
-// error_reporting(E_ALL);
-// ini_set('display_errors', '1');
+ // error_reporting(E_ALL);
+ // ini_set('display_errors', '1');
 
 session_start();
 
-function __autoload($nombre_clase) {
+
+spl_autoload_register(function ($nombre_clase) {
     include ((isset($_GET['path']) && strpos($_GET['path'], 'api/v1') !== false)?'class/API/':'class/') . $nombre_clase . '.php';
-}
+});
+
 
 include_once 'config.php';
 $rutas = json_decode(file_get_contents('config/rutas.json'), TRUE);
